@@ -1,0 +1,8 @@
+/* styles/Slider.css */
+.slider-image {
+    height: 478px;
+    width: auto; /* Ajusta el ancho automáticamente para mantener las proporciones originales */
+    margin: 0 auto; /* Centra la imagen horizontalmente en su contenedor */
+    border-radius: 25px;
+  }
+  

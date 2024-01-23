@@ -1,0 +1,58 @@
+:root{
+  --background-color: #fafafc;
+  --text-color: #000;
+  --text-color-hover: #ab1806;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    max-width: 34px;
+    max-width: 34px;
+  }
+.nav{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: large;
+  }
+.dropdown-item {
+    font-size: medium;
+    color: var(--text-color);
+  }   
+
+  .navbar-nav .nav-item:hover > .nav-link {
+    background-color: transparent; 
+  }
+  
+  .navbar-nav .nav-item:hover > .nav-link:hover + .dropdown-menu {
+    display: block;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 3px solid var(--text-color-hover);
+    padding-bottom: 5px ;
+    border-radius: 4px 4px 0 0;
+  }
+  /*
+  .navbar-nav .nav-item .nav-link.dropdown-toggle {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  */
+  .navbar-collapse{
+    height: 100px;
+  }
+  .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .nav-link:hover{
+    border-bottom: 3px solid var(--text-color-hover); /* Puedes ajustar el grosor y color según tus preferencias */
+    padding-bottom: 5px ; /* Ajusta el espacio entre el texto y la línea según tus preferencias */
+    border-radius: 4px 4px 0 0;
+  }
+  .main-logo{
+    transition: transform .1s; /* Animation */
+    border: var(--text-color);
+  }
+  .main-logo:hover {
+    transform: scale(1.65); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
