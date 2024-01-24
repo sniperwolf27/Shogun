@@ -1,6 +1,7 @@
 // components/ExampleCarouselImage.js
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/Slider.css';
 
 const CarouselImage = ({ imageUrl, altText }) => {
   return (
