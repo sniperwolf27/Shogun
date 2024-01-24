@@ -2,6 +2,7 @@
   --background-color: #fafafc;
   --text-color: #000;
   --text-color-hover: #ab1806;
+  --details-color: #d3d3d3;
 }
 
 .navbar-brand img {
@@ -13,6 +14,7 @@
     background-color: var(--background-color);
     color: var(--text-color);
     font-size: large;
+    border-bottom: 1px solid var(--details-color);
   }
 .dropdown-item {
     font-size: medium;
