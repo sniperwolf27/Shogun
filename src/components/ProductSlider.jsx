@@ -6,13 +6,14 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ProductSlider = ({ products }) => {
   const settings = {
-    className: "",
-    dots: true,
+    className: "center",
     infinite: true,
+    dots: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
+    centerMode: true,
+    swipeToSlide: true,
+    centerPadding: "60px",
+    slidesToShow: 4,
     responsive: [
         {
           breakpoint: 1024,
@@ -55,7 +56,8 @@ const ProductSlider = ({ products }) => {
           id={product.id}
           name={product.name}
           price={product.price}
-          image={product.image}
+          imageOriginal={product.imageOriginal}
+          imageHover={product.imageHover}
         />
       ))}
     </Slider>
