@@ -1,8 +1,10 @@
 
 .main-content{
-    max-width: 1350px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .carousel-control-prev, .carousel-control-next {
   color: #000000; 
@@ -28,3 +30,6 @@
     width: 100%;
     height: 100%;
   }
+
+/*updates 2/12/2024*/
+

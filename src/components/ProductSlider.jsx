@@ -3,64 +3,82 @@ import Slider from 'react-slick';
 import Product from './Product';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import '../styles/Slider.css'
+import { Col, Row} from 'react-bootstrap';
 const ProductSlider = ({ products }) => {
+    
   const settings = {
     className: "center",
     infinite: true,
     dots: true,
     speed: 500,
-    centerMode: true,
     swipeToSlide: true,
-    centerPadding: "60px",
     slidesToShow: 4,
+    initialSlide: 0, 
     responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1360,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
             dots: true
           }
         },
         {
-          breakpoint: 768,
+          breakpoint: 1024,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
-            initialSlide: 1
+            initialSlide: 0, // Establece el índice inicial del slider en 0 (el primer producto)
+            infinite: true,
+            dots: true
           }
         },
         {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            initialSlide: 0 // Establece el índice inicial del slider en 0 (el primer producto)
           }
         }
       ]
     };
-  
-  
 
   if (!products || !products.length) {
-    return <div>No hay productos disponibles</div>;
+    return(
+        <div>
+            <h1>No hay productos disponibles</h1>
+        </div>
+    );
   }
 
   return (
-    <Slider {...settings}>
-      {products.map(product => (
-        <Product
-          key={product.id}
-          id={product.id}
-          name={product.name}
-          price={product.price}
-          imageOriginal={product.imageOriginal}
-          imageHover={product.imageHover}
-        />
-      ))}
-    </Slider>
+    <div className='main-content'>
+        <div stile>
+        <Row>
+            <Col>
+                <h1 className='product-info'>New Products</h1>
+            </Col>
+            <Col className='col-lg-4 mx-auto'>
+                <h1 className='product-info'>View All</h1>
+            </Col>
+        </Row>
+        </div>
+      <Slider {...settings}>
+        {products.map(product => (
+          <Product
+            key={product.id}
+            id={product.id}
+            name={product.name}
+            price={product.price}
+            imageOriginal={product.imageOriginal}
+            imageHover={product.imageHover}
+          />
+        ))}
+      </Slider>
+    </div>
   );
 };
 
