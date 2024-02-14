@@ -4,11 +4,13 @@
   --text-color-hover: #ab1806;
   --details-color: #d3d3d3;
 }
-
+.navbar-expand-lg .navbar-nav {
+  justify-content: center;
+  align-items: center;
+}
 .navbar-brand img {
     border-radius: 50%;
-    max-width: 34px;
-    max-width: 34px;
+    width: 50px;
   }
 .nav{
     background-color: var(--background-color);
@@ -56,5 +58,5 @@
     border: var(--text-color);
   }
   .main-logo:hover {
-    transform: scale(1.65); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5); 
   }

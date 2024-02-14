@@ -26,6 +26,35 @@
       "price": "$35,000",
       "imageOriginal": "https://images.unsplash.com/photo-1631023099617-453c2e99b516?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHover": "https://images.unsplash.com/photo-1658697276351-9423897457c6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg"
-    }
+    },
+
+    {
+        "id": 5,
+        "name": "Camaro SS",
+        "price": "$900",
+        "imageOriginal": "https://images.unsplash.com/photo-1584345760620-42314dc68d63?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageHover": "https://images.unsplash.com/photo-1584345274849-e9596d6ea12d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 6,
+        "name": "Bugatti Chiron",
+        "price": "$1,500",
+        "imageOriginal": "https://images.unsplash.com/photo-1600712242805-5f78671b24da?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageHover": "https://images.unsplash.com/photo-1635975231394-61336236b7ba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 7,
+        "name": "Corvette",
+        "price": "$1,110",
+        "imageOriginal": "https://images.unsplash.com/photo-1562234245-5de03bd050da?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageHover": "https://images.unsplash.com/photo-1562234246-ca4e88982724?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 8,
+        "name": "Lamborghini",
+        "price": "$35,000",
+        "imageOriginal": "https://images.unsplash.com/photo-1631023099617-453c2e99b516?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "imageHover": "https://images.unsplash.com/photo-1658697276351-9423897457c6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dg"
+      }
   ]
   

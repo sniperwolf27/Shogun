@@ -1,0 +1,40 @@
+
+.catalog-item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    display: grid;
+    place-items: center;
+  }
+  
+  .catalog-image img {
+    width: 300px; /* Establece el ancho deseado para la imagen */
+    height: 350px; /* Establece la altura deseada para la imagen */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    transition: transform .5s ease-in-out;
+  }
+  .catalog-image img{
+    max-width: 300px;
+    max-height: 350px;
+  }
+  .catalog-image:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+  }
+  .catalog-item:hover .catalog-name{
+    transform: scale(1.5);
+    transform: translateY(20px);
+    transition: transform .5s ease-in-out;
+  }
+  .catalog-info .catalog-name{
+    transition: all .5s ease-in-out;
+  }
+  
+  .catalog-item:hover .catalog-price{
+    transform: scale(1.5);
+    transform: translateY(20px);
+    transition: transform .5s ease-in-out;
+  }
+  .catalog-info .catalog-price{
+    transition: all .5s ease;
+}
