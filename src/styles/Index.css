@@ -16,4 +16,5 @@ a, p, span, li, input, button, label, select, option, textarea{
 }
 .text-title{
   color: var(--text-color);
+  font-weight: 400;
 }

@@ -15,6 +15,7 @@ const ProductSlider = ({ products }) => {
     swipeToSlide: true,
     slidesToShow: 4,
     initialSlide: 0, 
+    slidesToScroll: 2,
     responsive: [
         {
           breakpoint: 1360,
@@ -49,7 +50,7 @@ const ProductSlider = ({ products }) => {
   if (!products || !products.length) {
     return(
         <div>
-            <h1>No hay productos disponibles</h1>
+            <h1 className='text-title'>No hay productos disponibles</h1>
         </div>
     );
   }
@@ -59,10 +60,10 @@ const ProductSlider = ({ products }) => {
         <div stile>
         <Row>
             <Col>
-                <h1 className='product-info'>New Products</h1>
+                <h1 className='product-info text-title'>New Products</h1>
             </Col>
             <Col className='col-lg-4 mx-auto'>
-                <h1 className='product-info'>View All</h1>
+                <h1 className='product-info text-title'>View All</h1>
             </Col>
         </Row>
         </div>

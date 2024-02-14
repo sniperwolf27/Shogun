@@ -12,6 +12,7 @@
     height: 350px; /* Establece la altura deseada para la imagen */
     object-fit: cover; /* Ajusta la imagen dentro del contenedor */
     transition: transform .5s ease-in-out;
+    border-radius: 15px;
   }
   .catalog-image img{
     max-width: 300px;

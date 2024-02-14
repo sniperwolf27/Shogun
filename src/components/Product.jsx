@@ -18,7 +18,7 @@ const Product = ({ id, name, price, imageOriginal, imageHover }) => {
                 />
             </div>
                 <div className='product-info'>
-                    <h3 className='product-name'>{name}</h3>
+                    <h3 className='product-name text-title'>{name}</h3>
                     <p className='product-price'>{price}</p>
                 </div>
         </div>
