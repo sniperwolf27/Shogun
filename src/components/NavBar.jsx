@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar, NavDropdown, Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/Navbar.css';
+import '../styles/Index.css';
 function NavBar() {
   return (
     <Navbar expand="lg" className="nav mx-auto">

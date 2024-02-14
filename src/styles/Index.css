@@ -1,25 +1,19 @@
-:root {
+:root{
   --background-color: #fafafc;
-  --text-color: #000;
+  --text-color: #000000;
   --text-color-hover: #ab1806;
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --details-color: #d3d3d3;
+  --text-color-hover: #ab1806;
+  --text-title-font: 'Monserat', sans-serif;
+  --text-body-font: 'Open Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2 , h3, h4, h5, h6{
+  font-family: var(--text-title-font)
+}
+a, p, span, li, input, button, label, select, option, textarea{
+  font-family: var(--text-body-font);
 }
 .text-title{
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.1;
-  margin-bottom: 1rem;
   color: var(--text-color);
 }

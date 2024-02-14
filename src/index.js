@@ -11,6 +11,7 @@ import Catalog from './components/Catalog.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
     <App />
     <NavBar/> 
