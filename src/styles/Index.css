@@ -4,7 +4,7 @@
   --text-color-hover: #ab1806;
   --details-color: #d3d3d3;
   --text-color-hover: #ab1806;
-  --text-title-font: 'Monserat', sans-serif;
+  --text-title-font: "Noto Serif", serif;
   --text-body-font: 'Open Sans', sans-serif;
 }
 
@@ -17,4 +17,6 @@ a, p, span, li, input, button, label, select, option, textarea{
 .text-title{
   color: var(--text-color);
   font-weight: 400;
+  font-family: var(--text-title-font);
+  font-optical-sizing: auto;
 }
